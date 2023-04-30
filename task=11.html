@@ -1,0 +1,26 @@
+<script type="text/javascript">
+   var op = prompt("Enter the operator(+,-,*,/) :-");
+   var a = parseInt(prompt("Enter the number of A :- "));
+   var b = parseInt(prompt("Enter the number of B :- "));
+   var ans;
+   document.write("<h1>Enter the operator(+,-,*,/) :-  "+op+"</h1>");
+   if(op == '+'){
+           ans = a + b;
+           document.write("<h1>Ans of a Addition:- "+ans+"</h1>");
+   }
+   else if(op == '-'){
+           ans = a - b;
+           document.write("<h1>Ans of a Subtraction :- "+ans+"</h1>"); 
+   }
+   else if(op == '*'){
+           ans = a * b;
+           document.write("<h1>Ans of a Multiplication:- "+ans+"</h1>");
+   }
+   else if(op == '/'){
+        ans = a / b;
+           document.write("<h1>Ans of a Division:- "+ans+"</h1>");
+   }
+   else{
+    document.write("<h1>Ans of a not values </h1>");
+   }
+</script>

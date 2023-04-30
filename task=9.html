@@ -1,0 +1,43 @@
+<script type="text/javascript">
+    var a = parseInt(prompt("enter number of A : - "));
+    var b = parseInt(prompt("enter number of B : - "));
+    var c = parseInt(prompt("enter number of C : - "));
+    var d = parseInt(prompt("enter number of D : - "));
+
+    if(a>b){
+        if(a>c){
+            if(a>d){
+                document.write("<h1> A is Big </h1>");
+            }
+            else{
+                document.write("<h1> D is Big </h1>");
+            }
+        }
+        else{
+            if(c>d){
+                document.write("<h1> C is Big </h1>");
+            }
+            else{
+                document.write("<h1> D is Big </h1>");
+            }
+        }
+    }
+    else{
+        if(b>c){
+            if(b>d){
+                document.write("<h1> B is Big </h1>");
+            }
+            else{
+                document.write("<h1> D is Big </h1>");
+            }
+        }
+        else{
+            if(c>d){
+                document.write("<h1> C is Big </h1>");
+            }
+            else{
+                document.write("<h1> D is Big </h1>");
+            } 
+        }
+    }
+</script>
